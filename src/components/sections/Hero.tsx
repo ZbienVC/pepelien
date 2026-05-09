@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { Copy, TrendingUp, BarChart2 } from "lucide-react";
 import { useState } from "react";
+import { GlitchTitle } from "@/components/ui/Particles";
 
 const TICKER = [
   "PEPELIEN", "ELON IS AN ALIEN", "PEPE KNOWS THE TRUTH", "0% TAX",
@@ -41,7 +42,7 @@ export default function Hero() {
           <motion.h1 initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, ease: "easeOut" }}
             className="text-7xl md:text-[8rem] lg:text-[9rem] font-black font-[family-name:var(--font-orbitron)] leading-none drop-shadow-2xl"
             style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.8), 0 0 60px rgba(57,255,20,0.3)', letterSpacing: '-0.02em' }}>
-            PEPELIEN
+            <GlitchTitle>PEPELIEN</GlitchTitle>
           </motion.h1>
 
           <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.8 }}
