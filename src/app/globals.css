@@ -30,7 +30,65 @@ html { scroll-behavior: smooth; }
 ::-webkit-scrollbar-thumb { background: #39FF14; border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: #A855F7; }
 
-/* ── Typography System ── */
+/* ── Advanced Text Styling ── */
+
+/* Gradient text — green to cyan */
+.text-gradient-alien {
+  background: linear-gradient(135deg, #39FF14 0%, #7FFF00 50%, #00FFD4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient text — purple to pink */
+.text-gradient-space {
+  background: linear-gradient(135deg, #A855F7 0%, #EC4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Outlined / stroked text */
+.text-stroke-green {
+  -webkit-text-stroke: 1.5px #39FF14;
+  color: transparent;
+  text-shadow: none;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 1px rgba(240,244,255,0.5);
+  color: transparent;
+}
+
+/* Body text with subtle alien glow */
+.body-glow {
+  text-shadow: 0 0 8px rgba(57,255,20,0.15);
+}
+
+/* Key word highlight — inline green glow */
+.kw {
+  color: #39FF14;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(57,255,20,0.5);
+}
+
+/* Key word — purple */
+.kw-purple {
+  color: #A855F7;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(168,85,247,0.4);
+}
+
+/* Spaced tracking for emphasis */
+.tracked {
+  letter-spacing: 0.12em;
+}
+
+/* Mixed weight inline — bold first word style */
+.lead-bold {
+  font-weight: 900;
+  color: #F0F4FF;
+}
 .font-orbitron { font-family: var(--font-orbitron), 'Courier New', monospace; }
 
 /* Section label — spaced caps like classified headers */
