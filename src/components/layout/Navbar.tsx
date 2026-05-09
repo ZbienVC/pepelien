@@ -15,7 +15,10 @@ export default function Navbar() {
       style={{ background: 'rgba(3,0,10,0.88)', backdropFilter: 'blur(24px)', borderBottom: '1px solid rgba(57,255,20,0.1)' }}>
 
       <div className="flex items-center gap-3 flex-shrink-0">
-        <div className="text-2xl">👽</div>
+        <div className="w-9 h-9 rounded-full overflow-hidden flex-shrink-0"
+          style={{ border: '1px solid rgba(57,255,20,0.4)', boxShadow: '0 0 12px rgba(57,255,20,0.3)' }}>
+          <img src="/pepelien-logo.jpg" alt="PEPELIEN" className="w-full h-full object-cover object-top" />
+        </div>
         <span className="text-lg font-black tracking-tight font-[family-name:var(--font-orbitron)] glow-text" style={{ color: '#39FF14', letterSpacing: '0.05em' }}>
           $PEPELIEN
         </span>

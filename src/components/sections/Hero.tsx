@@ -102,9 +102,21 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right: Hero meme — hidden on mobile to keep clean */}
+        {/* Right: Hero image — PepeElon SpaceX */}
         <motion.div initial={{ opacity: 0, x: 60 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3 }}
           className="relative flex-shrink-0 hidden lg:block lg:w-[420px] xl:w-[460px]">
+          <motion.div animate={{ y: [0, -14, 0] }} transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+            className="relative rounded-3xl overflow-hidden"
+            style={{ height: 460, border: '1px solid rgba(57,255,20,0.25)', boxShadow: '0 0 60px rgba(57,255,20,0.2), 0 0 120px rgba(57,255,20,0.08)' }}>
+            <img src="/pepelien-logo.jpg" alt="PepeElon SpaceX" className="w-full h-full object-cover object-top" />
+            <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(3,0,10,0.65) 0%, transparent 55%)' }} />
+            <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 50% 30%, rgba(57,255,20,0.06) 0%, transparent 60%)' }} />
+            <div className="absolute bottom-5 left-0 right-0 text-center">
+              <span className="label-alien" style={{ fontSize: 9 }}>&#x25A0; OCCUPY MARS &#x25A0;</span>
+            </div>
+          </motion.div>
+          <div className="absolute -inset-8 -z-10 rounded-full blur-[80px]" style={{ background: 'rgba(57,255,20,0.08)' }} />
+        </motion.div>
           <motion.div animate={{ y: [0, -18, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="relative rounded-3xl overflow-hidden"
             style={{ height: 460, border: '1px solid rgba(57,255,20,0.2)', boxShadow: '0 0 60px rgba(57,255,20,0.15), 0 0 120px rgba(57,255,20,0.06)' }}>
