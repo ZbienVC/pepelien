@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: 'rgba(240,244,255,0.3)' }}>Community</p>
           <div className="flex items-center gap-4">
-            <a href="#" target="_blank" rel="noreferrer"
+            <a href="https://t.me/pepelien_sol" target="_blank" rel="noreferrer"
               className="w-12 h-12 rounded-full flex items-center justify-center transition-all hover:scale-110"
               style={{ background: 'rgba(57,255,20,0.08)', border: '1px solid rgba(57,255,20,0.2)', color: '#39FF14' }}>
               <Send className="w-5 h-5" />
