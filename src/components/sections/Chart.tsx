@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-const PAIR_ADDRESS = "PLACEHOLDER_PAIR";
+const PAIR_ADDRESS = "DFStrnByyAhpSeqQJCS9RBz1SNKe4PYXSAnUqVigxv2E";
 const DEXSCREENER_URL = `https://dexscreener.com/solana/${PAIR_ADDRESS}`;
 const EMBED_URL = `https://dexscreener.com/solana/${PAIR_ADDRESS}?embed=1&loadChartSettings=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15`;
 
@@ -31,7 +31,7 @@ export default function Chart() {
             style={{ background: 'rgba(57,255,20,0.08)', border: '1px solid rgba(57,255,20,0.2)', color: '#39FF14' }}>
             Open Full Chart ↗
           </a>
-          <a href="#how-to-buy"
+          <a href={`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${PAIR_ADDRESS}`}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all hover:opacity-80"
             style={{ background: 'linear-gradient(135deg, #39FF14, #4CAF50)', color: '#03000A', fontWeight: 700 }}>
             Buy $PEPELIEN ↗

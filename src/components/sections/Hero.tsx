@@ -10,7 +10,7 @@ const TICKER = [
 ];
 
 export default function Hero() {
-  const CA = "PLACEHOLDER_CA";
+  const CA = "yFFoq7rCHkMQPTwS7bhUyF68cz4Xs2YmnksXuwJpump";
   const [copied, setCopied] = useState(false);
   const handleCopy = () => { navigator.clipboard.writeText(CA); setCopied(true); setTimeout(() => setCopied(false), 2000); };
 

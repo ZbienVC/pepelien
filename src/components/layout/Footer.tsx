@@ -16,7 +16,7 @@ export default function Footer() {
             Elon is an alien. Pepe knows. The charts don't lie. $PEPELIEN — the truth is on-chain.
           </p>
           <div className="text-xs font-mono px-4 py-2 rounded-xl mt-1 break-all" style={{ background: 'rgba(57,255,20,0.06)', border: '1px solid rgba(57,255,20,0.15)', color: '#39FF14' }}>
-            PLACEHOLDER_CA
+            yFFoq7rCHkMQPTwS7bhUyF68cz4Xs2YmnksXuwJpump
           </div>
         </div>
 
