@@ -52,8 +52,12 @@ export default function Hero() {
           </motion.h2>
 
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}
-            className="text-lg max-w-md font-medium" style={{ color: 'rgba(240,244,255,0.6)' }}>
-            They've been watching us. Now we're watching the charts. $PEPELIEN — the most out-of-this-world token on Solana.
+            className="text-base md:text-lg max-w-md font-medium leading-relaxed" style={{ color: 'rgba(240,244,255,0.65)' }}>
+            Crypto's first Pepe + Elon + Alien meme. 2 memes that won't die{' '}
+            <span style={{ color: 'rgba(240,244,255,0.85)' }}>(Pepe &amp; Elon)</span> and an alien meta that is just getting started.
+            All mashed into one.{' '}
+            <span style={{ color: '#39FF14', fontWeight: 700 }}>$PEPELIEN</span>{' '}
+            is a true OG meme token across all chains.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.8 }}
