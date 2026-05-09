@@ -51,9 +51,9 @@ export default function Hero() {
             <span style={{ color: '#A855F7', textShadow: '0 0 16px rgba(168,85,247,0.5)' }}>The conspiracy is real.</span>
           </motion.h2>
 
-          {/* Occupy Mars image — visible on all screens */}
+          {/* Occupy Mars image — visible on all screens, below tagline */}
           <motion.div initial={{ opacity: 0, scale: 0.92 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.5, duration: 0.7 }}
-            className="w-full max-w-xs sm:max-w-sm rounded-2xl overflow-hidden self-center lg:self-start"
+            className="w-full max-w-xs sm:max-w-sm rounded-2xl overflow-hidden self-center lg:self-start lg:hidden"
             style={{ border: '1px solid rgba(57,255,20,0.2)', boxShadow: '0 0 40px rgba(57,255,20,0.1)' }}>
             <img src="/pepelien-occupy.jpg" alt="Pepe Occupy Mars podcast"
               className="w-full h-auto object-cover block" />
@@ -110,13 +110,13 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right: Hero image — PepeElon SpaceX */}
+        {/* Right: Smoking PepeElon — desktop only */}
         <motion.div initial={{ opacity: 0, x: 60 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3 }}
           className="relative flex-shrink-0 hidden lg:block lg:w-[420px] xl:w-[460px]">
           <motion.div animate={{ y: [0, -14, 0] }} transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
             className="relative rounded-3xl overflow-hidden"
             style={{ height: 460, border: '1px solid rgba(57,255,20,0.25)', boxShadow: '0 0 60px rgba(57,255,20,0.2), 0 0 120px rgba(57,255,20,0.08)' }}>
-            <img src="/pepelien-logo.jpg" alt="PepeElon SpaceX" className="w-full h-full object-cover object-top" />
+            <img src="/pepelien-occupy.jpg" alt="PepeElon Occupy Mars" className="w-full h-full object-cover object-top" />
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(3,0,10,0.65) 0%, transparent 55%)' }} />
             <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 50% 30%, rgba(57,255,20,0.06) 0%, transparent 60%)' }} />
             <div className="absolute bottom-5 left-0 right-0 text-center">
