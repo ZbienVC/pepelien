@@ -27,10 +27,10 @@ export default function Hero() {
       </div>
 
       {/* Main content */}
-      <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 pt-12 relative z-10 flex-1">
+      <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-6 pt-8 relative z-10 flex-1 pb-4">
 
         {/* Left: text */}
-        <div className="flex flex-col items-center lg:items-start text-center lg:text-left flex-1 gap-6">
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left flex-1 gap-5 w-full max-w-xl lg:max-w-none mx-auto lg:mx-0">
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
             className="flex items-center gap-2 px-4 py-1.5 rounded-full"
@@ -40,13 +40,13 @@ export default function Hero() {
           </motion.div>
 
           <motion.h1 initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, ease: "easeOut" }}
-            className="text-7xl md:text-[8rem] lg:text-[9rem] font-black font-[family-name:var(--font-orbitron)] leading-none drop-shadow-2xl"
-            style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.8), 0 0 60px rgba(57,255,20,0.3)', letterSpacing: '-0.02em' }}>
+            className="font-black font-[family-name:var(--font-orbitron)] leading-none drop-shadow-2xl"
+            style={{ fontSize: 'clamp(52px, 14vw, 140px)', color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.8), 0 0 60px rgba(57,255,20,0.3)', letterSpacing: '-0.02em' }}>
             <GlitchTitle>PEPELIEN</GlitchTitle>
           </motion.h1>
 
           <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-xl md:text-3xl font-bold font-[family-name:var(--font-fredoka)] max-w-xl leading-tight">
+            className="text-lg md:text-2xl lg:text-3xl font-bold font-[family-name:var(--font-fredoka)] max-w-xl leading-tight">
             <span style={{ color: '#F0F4FF' }}>Elon Musk. Pepe the Frog. An Alien.</span><br />
             <span style={{ color: '#A855F7', textShadow: '0 0 16px rgba(168,85,247,0.5)' }}>The conspiracy is real.</span>
           </motion.h2>
@@ -102,9 +102,9 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right: Hero meme — UFO abduction */}
+        {/* Right: Hero meme — hidden on mobile to keep clean */}
         <motion.div initial={{ opacity: 0, x: 60 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3 }}
-          className="relative flex-shrink-0 w-full lg:w-[460px]">
+          className="relative flex-shrink-0 hidden lg:block lg:w-[420px] xl:w-[460px]">
           <motion.div animate={{ y: [0, -18, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="relative rounded-3xl overflow-hidden"
             style={{ height: 460, border: '1px solid rgba(57,255,20,0.2)', boxShadow: '0 0 60px rgba(57,255,20,0.15), 0 0 120px rgba(57,255,20,0.06)' }}>
