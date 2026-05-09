@@ -17,9 +17,10 @@ export default function HowToBuy() {
 
       <div className="max-w-6xl mx-auto relative z-10">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-20">
-          <p className="text-xs font-bold uppercase tracking-[0.3em] mb-4" style={{ color: '#39FF14' }}>Your Mission</p>
-          <h2 className="text-4xl md:text-6xl font-bold font-[family-name:var(--font-fredoka)] mb-6" style={{ color: '#F0F4FF' }}>
-            How to Own <span style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.5)' }}>$PEPELIEN</span>
+          <p className="label-alien mb-4">&#x25A0; Your Mission &#x25A0;</p>
+          <h2 className="text-4xl md:text-6xl font-bold font-[family-name:var(--font-orbitron)] mb-6 leading-tight"
+            style={{ color: '#F0F4FF', letterSpacing: '-0.02em' }}>
+            HOW TO OWN<br /><span style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.5)' }}>$PEPELIEN</span>
           </h2>
           <p className="text-lg md:text-xl font-medium max-w-2xl mx-auto" style={{ color: 'rgba(240,244,255,0.55)' }}>
             You don't just buy $PEPELIEN. You join the most classified operation on Solana.

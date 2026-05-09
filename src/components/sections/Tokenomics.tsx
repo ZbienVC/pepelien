@@ -14,10 +14,10 @@ export default function Tokenomics() {
     <section id="tokenomics" className="py-24 px-4 md:px-8 relative z-10 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
-          <p className="text-xs font-bold uppercase tracking-[0.3em] mb-3" style={{ color: '#39FF14' }}>Alien Economics</p>
-          <h2 className="text-4xl md:text-6xl font-black font-[family-name:var(--font-fredoka)] tracking-tight"
-            style={{ color: '#F0F4FF', textShadow: '0 0 30px rgba(57,255,20,0.15)' }}>
-            $PEPELIEN<span style={{ color: '#39FF14' }}>OMICS</span>
+          <p className="label-alien mb-4">&#x25A0; Alien Economics &#x25A0;</p>
+          <h2 className="text-4xl md:text-6xl font-black font-[family-name:var(--font-orbitron)] tracking-tight"
+            style={{ color: '#F0F4FF', letterSpacing: '-0.02em' }}>
+            <span style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.4)' }}>$</span>PEPELIEN<span style={{ color: '#39FF14' }}>OMICS</span>
           </h2>
         </motion.div>
 

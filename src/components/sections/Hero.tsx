@@ -35,21 +35,19 @@ export default function Hero() {
             className="flex items-center gap-2 px-4 py-1.5 rounded-full"
             style={{ background: 'rgba(57,255,20,0.08)', border: '1px solid rgba(57,255,20,0.3)' }}>
             <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#39FF14', boxShadow: '0 0 8px rgba(57,255,20,0.9)' }} />
-            <span className="text-xs font-bold uppercase tracking-widest" style={{ color: '#39FF14' }}>
-              Classified · Solana · Area 51 Approved
-            </span>
+            <span className="label-alien" style={{ fontSize: 9 }}>&#x25A0; Classified &nbsp;·&nbsp; Solana &nbsp;·&nbsp; Area 51 Approved &#x25A0;</span>
           </motion.div>
 
           <motion.h1 initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, ease: "easeOut" }}
-            className="text-7xl md:text-[8rem] lg:text-[9rem] font-bold font-[family-name:var(--font-fredoka)] leading-none drop-shadow-2xl"
-            style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.8), 0 0 60px rgba(57,255,20,0.3)' }}>
+            className="text-7xl md:text-[8rem] lg:text-[9rem] font-black font-[family-name:var(--font-orbitron)] leading-none drop-shadow-2xl"
+            style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.8), 0 0 60px rgba(57,255,20,0.3)', letterSpacing: '-0.02em' }}>
             PEPELIEN
           </motion.h1>
 
           <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-xl md:text-3xl font-semibold max-w-xl leading-tight" style={{ color: '#A855F7' }}>
-            Elon Musk. Pepe the Frog. An Alien.
-            <span style={{ color: 'rgba(240,244,255,0.7)' }}> The conspiracy is real.</span>
+            className="text-xl md:text-3xl font-bold font-[family-name:var(--font-fredoka)] max-w-xl leading-tight">
+            <span style={{ color: '#F0F4FF' }}>Elon Musk. Pepe the Frog. An Alien.</span><br />
+            <span style={{ color: '#A855F7', textShadow: '0 0 16px rgba(168,85,247,0.5)' }}>The conspiracy is real.</span>
           </motion.h2>
 
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}

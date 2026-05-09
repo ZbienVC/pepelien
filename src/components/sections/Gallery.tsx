@@ -34,14 +34,11 @@ export default function Gallery() {
     <section id="gallery" className="py-24 px-4 md:px-8 relative z-10 overflow-hidden" style={{ background: 'rgba(0,0,5,0.4)' }}>
       <div className="max-w-7xl mx-auto mb-12 flex items-end justify-between">
         <div>
-          <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
-            className="text-xs font-bold uppercase tracking-[0.3em] mb-3" style={{ color: '#39FF14' }}>
-            Declassified Files
-          </motion.p>
+          <p className="label-alien mb-3">&#x25A0; Declassified Files &#x25A0;</p>
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-4xl md:text-6xl font-black font-[family-name:var(--font-fredoka)]"
-            style={{ color: '#F0F4FF' }}>
-            The <span style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.5)' }}>Meme</span> Vault
+            className="text-4xl md:text-6xl font-black font-[family-name:var(--font-orbitron)]"
+            style={{ color: '#F0F4FF', letterSpacing: '-0.02em' }}>
+            THE <span style={{ color: '#39FF14', textShadow: '0 0 20px rgba(57,255,20,0.5)' }}>MEME</span> VAULT
           </motion.h2>
           <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
             className="mt-2 text-sm font-medium" style={{ color: 'rgba(240,244,255,0.4)' }}>

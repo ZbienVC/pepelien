@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Fredoka } from "next/font/google";
+import { Inter, Fredoka, Orbitron } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -7,6 +7,7 @@ import Particles from "@/components/ui/Particles";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const fredoka = Fredoka({ subsets: ["latin"], variable: "--font-fredoka" });
+const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron", weight: ["400","700","900"] });
 
 export const metadata: Metadata = {
   title: "$PEPELIEN — Elon. Pepe. Alien. On Solana.",
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${fredoka.variable} font-sans antialiased space-bg text-white min-h-screen flex flex-col`}>
+      <body className={`${inter.variable} ${fredoka.variable} ${orbitron.variable} font-sans antialiased space-bg text-white min-h-screen flex flex-col`}>
         <Particles />
         <Navbar />
         <main className="flex-1 relative z-10">{children}</main>

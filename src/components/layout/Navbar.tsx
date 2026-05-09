@@ -16,7 +16,7 @@ export default function Navbar() {
 
       <div className="flex items-center gap-3 flex-shrink-0">
         <div className="text-2xl">👽</div>
-        <span className="text-lg font-black tracking-tight font-[family-name:var(--font-fredoka)] glow-text" style={{ color: '#39FF14' }}>
+        <span className="text-lg font-black tracking-tight font-[family-name:var(--font-orbitron)] glow-text" style={{ color: '#39FF14', letterSpacing: '0.05em' }}>
           $PEPELIEN
         </span>
       </div>
