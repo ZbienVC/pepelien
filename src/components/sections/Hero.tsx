@@ -53,9 +53,7 @@ export default function Hero() {
 
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}
             className="text-base md:text-lg max-w-md font-medium leading-relaxed body-glow" style={{ color: 'rgba(240,244,255,0.65)' }}>
-            Crypto's first <span className="kw">Pepe + Elon + Alien</span> meme.
-            Two memes that won't die and an alien meta just getting started.
-            All mashed into one. <span className="kw">$PEPELIEN</span> — a true OG meme token across all chains.
+            Crypto's first <span className="kw">Pepe + Elon + Alien</span> meme. 2 memes that won't die <span style={{ color: 'rgba(240,244,255,0.8)' }}>(Pepe &amp; Elon)</span> and an alien meta that is just getting started. All mashed into one. <span className="kw">$PEPELIEN</span> is a true OG meme token across all chains.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.8 }}
