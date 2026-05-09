@@ -42,10 +42,10 @@ export default function Story() {
           <motion.div initial={{ opacity: 0, scale: 0.88 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.9 }}
             className="h-80 md:h-[480px] rounded-3xl overflow-hidden relative"
             style={{ border: '1px solid rgba(57,255,20,0.15)' }}>
-            <img src="/pepelien-4.jpg" alt="Pepe Elon Alien hot tub moon" className="absolute inset-0 w-full h-full object-cover" />
+            <img src="/pepelien-20.jpg" alt="Pepe Elon SpaceX money" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(3,0,10,0.85) 0%, transparent 60%)' }} />
             <div className="absolute bottom-5 left-6">
-              <p className="text-xs font-bold uppercase tracking-widest" style={{ color: 'rgba(57,255,20,0.8)' }}>Pepe, Elon & The Alien. Moon base. 2025.</p>
+              <p className="text-xs font-bold uppercase tracking-widest" style={{ color: 'rgba(57,255,20,0.8)' }}>Numbers Don't Lie. SpaceX. Moon. Cash.</p>
             </div>
           </motion.div>
 

@@ -27,7 +27,7 @@ export default function Tokenomics() {
           {/* Meme image */}
           <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.9 }}
             className="relative h-[380px] md:h-[480px] flex items-end justify-center lg:justify-end">
-            <img src="/pepelien-2.jpg" alt="Pepelien poker"
+            <img src="/pepelien-11.jpg" alt="PepElon alien army"
               className="h-full object-contain object-bottom"
               style={{
                 maskImage: 'linear-gradient(to right, transparent 0%, black 25%, black 80%, transparent 100%), linear-gradient(to top, transparent 0%, black 15%)',
