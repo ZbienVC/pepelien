@@ -28,7 +28,7 @@ export default function Footer() {
               style={{ background: 'rgba(57,255,20,0.08)', border: '1px solid rgba(57,255,20,0.2)', color: '#39FF14' }}>
               <Send className="w-5 h-5" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer"
+            <a href="https://x.com/Pepelien_SOL" target="_blank" rel="noreferrer"
               className="w-12 h-12 rounded-full flex items-center justify-center transition-all hover:scale-110"
               style={{ background: 'rgba(168,85,247,0.08)', border: '1px solid rgba(168,85,247,0.2)', color: '#A855F7' }}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
