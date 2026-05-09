@@ -51,6 +51,14 @@ export default function Hero() {
             <span style={{ color: '#A855F7', textShadow: '0 0 16px rgba(168,85,247,0.5)' }}>The conspiracy is real.</span>
           </motion.h2>
 
+          {/* Occupy Mars image — visible on all screens */}
+          <motion.div initial={{ opacity: 0, scale: 0.92 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.5, duration: 0.7 }}
+            className="w-full max-w-xs sm:max-w-sm rounded-2xl overflow-hidden self-center lg:self-start"
+            style={{ border: '1px solid rgba(57,255,20,0.2)', boxShadow: '0 0 40px rgba(57,255,20,0.1)' }}>
+            <img src="/pepelien-occupy.jpg" alt="Pepe Occupy Mars podcast"
+              className="w-full h-auto object-cover block" />
+          </motion.div>
+
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}
             className="text-base md:text-lg max-w-md font-medium leading-relaxed body-glow" style={{ color: 'rgba(240,244,255,0.65)' }}>
             Crypto's first <span className="kw">Pepe + Elon + Alien</span> meme. 2 memes that won't die <span style={{ color: 'rgba(240,244,255,0.8)' }}>(Pepe &amp; Elon)</span> and an alien meta that is just getting started. All mashed into one. <span className="kw">$PEPELIEN</span> is a true OG meme token across all chains.
